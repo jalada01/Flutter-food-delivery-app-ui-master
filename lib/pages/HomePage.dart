@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
                     children: <Widget>[
                       Text("\$ 15.00", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),),
                       SizedBox(height: 10,),
-                      Text("Vegetarian Pizza", style: TextStyle(color: Colors.white, fontSize: 20),)
+                      Text("The Green Pizza", style: TextStyle(color: Colors.green, fontSize: 40),)
                     ],
                   )
                 ],
