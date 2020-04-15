@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
             ),
             FadeAnimation(1, Padding(
               padding: EdgeInsets.all(20),
-              child: Text('Free Delivery', style: TextStyle(color: Colors.grey[700], fontSize: 20, fontWeight: FontWeight.bold),),
+              child: Text('Completely Free Delivery', style: TextStyle(color: Colors.grey[700], fontSize: 20, fontWeight: FontWeight.bold),),
             )),
             Expanded(
               child: Padding(
