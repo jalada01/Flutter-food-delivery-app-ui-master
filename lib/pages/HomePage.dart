@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
           borderRadius: BorderRadius.circular(50),
         ),
         child: Align(
-          child: Text(title, style: TextStyle(color: isActive ? Colors.white : Colors.grey[500], fontSize: 18, fontWeight: isActive ? FontWeight.bold : FontWeight.w100),),
+          child: Text(title, style: TextStyle(color: isActive ? Colors.white : Colors.grey[500], fontSize: 20, fontWeight: isActive ? FontWeight.bold : FontWeight.w200),),
         ),
       ),
     );
