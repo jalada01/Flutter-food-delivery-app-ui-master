@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: <Widget>[
-                        FadeAnimation(1, makeCategory(isActive: true, title: 'Pizza')),
+                        FadeAnimation(1, makeCategory(isActive: true, title: 'Pizza Pie')),
                         FadeAnimation(1.3, makeCategory(isActive: false, title: 'Burgers')),
                         FadeAnimation(1.4, makeCategory(isActive: false, title: 'Kebab')),
                         FadeAnimation(1.5, makeCategory(isActive: false, title: 'Desert')),
